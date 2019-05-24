@@ -40,6 +40,11 @@ permalink: pretty
 
 # Build settings
 markdown: kramdown
+
+# Markdown Processors
+kramdown:
+  input: GFM
+
 remote_theme: "mmistakes/jekyll-theme-basically-basic"
 plugins:
   - jekyll-feed

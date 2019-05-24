@@ -1,8 +1,10 @@
 ---
 layout: post
 title: 짧고 이해하기 어려운 코드와 길고 이해하기 쉬운 코드에 대하여
-categories: [diary]
+categories:
+  - diary
 # feature_image: ""
+tags:
 ---
 >**짧고 이해하기 쉬운 코드가 정답이다.**
 
