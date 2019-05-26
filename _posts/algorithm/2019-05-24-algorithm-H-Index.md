@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (정렬)H-Index, for문을 한 번 더 고민하고 사용하기
+title: (정렬)H-Index, 완성한 for문도 다시 살피자
 categories:
   - algorithm
 # feature_image: ""
@@ -28,7 +28,11 @@ def solution(citations):
 
 정렬과 for문을 통해 if조건을 검색하면 간단히 해결할 수 있는 문제였다.
 논문을 내림차순으로 정렬해서 index+1과 해당 index의 인용 수를 비교하는 방식으로 답을 구했다.
-다만, `index+1 == citation`인 경우는 곧 바로 index+1이 H-Index값이지만, `index+1 > citation`의 경우는 **그 직전 index**가 원하는 target index이므로 조건절이 2개로 나눠졌다. 문제를 풀고나면 확인할 수 있는 다른 사람들의 풀이에서, 간단히 reverse로 sort하지 않고 풀면 두 경우를 동시에 처리 할 수 있음을 깨달았다.
+다만, `index+1 == citation`인 경우는 곧 바로 index+1이 H-Index값이지만, `index+1 > citation`의 경우는 **그 직전 index**가 원하는 target index이므로 조건절이 2개로(case는 총 3개) 나눠졌다.
+
+문제를 풀고나면 확인할 수 있는(아래) 다른 사람들의 풀이의 for문과 비교하니 나의 for문이 초라해 보인다.. 덕지 덕지 if elif에 break까지...
+
+인용된 수가 큰 것부터 차례로 check하지말고, 인용된 수가 작은 것부터 check하면 위 풀이의 2개 조건을 하나로 합칠 수 있다. 그리고 이를 통해서 좀 더 짧고 간결한 코드를 만들 수 있다!
 
 ```python
 def solution(citations):
