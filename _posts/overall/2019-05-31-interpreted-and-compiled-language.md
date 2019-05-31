@@ -9,8 +9,8 @@ tags:
 ---
 > 학원에서 java를 배웠고, 요즘은 python과 javascript를 많이 사용하고 있다. python과 javascript는 인터프리터 언어, java는 컴파일 언어(인터프리터 언어이기도 한단다)라고 하는데, 인터프리터 언어와 컴파일 언어의 차이에 대해서 알아보자.
 
-> 좋은 묘사들  
-- []컴파일러가 번역기라면 인터프리터는 통역기](https://namu.wiki/w/%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC?from=%EC%BB%B4%ED%8C%8C%EC%9D%BC)
+
+- [컴파일러가 번역기라면 인터프리터는 통역기](https://namu.wiki/w/%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC?from=%EC%BB%B4%ED%8C%8C%EC%9D%BC)
 
 
 ### Example of Compiled/Interpreted language
