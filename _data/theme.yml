@@ -37,5 +37,6 @@ navigation_pages:
   - about.md
   # - cv.md
   # - posts.md
+  - recipes.md
   - categories.md
   - tags.md

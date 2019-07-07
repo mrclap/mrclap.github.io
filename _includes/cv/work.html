@@ -30,7 +30,7 @@
         </div>
         {% if w.summary %}
           <div class="summary">
-            <p>{{ w.summary }}</p>
+            <p style="margin-bottom:0">{{ w.summary }}</p>
           </div>
         {% endif %}
         {% if w.highlights %}
@@ -40,6 +40,7 @@
             {% endfor %}
           </ul>
         {% endif %}
+        <div class="divider"></div>
       {% endfor %}
     </div>
   </div>

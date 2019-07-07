@@ -1,0 +1,157 @@
+{
+  "basics": {
+    "name": "박수형",
+    "label": "Suhyeong Park",
+    "picture": "",
+    "email": "design.ur.experience@gmail.com",
+    # "phone": "",
+    "website": "https://mrclap.github.io",
+    "summary":
+          "
+            진짜 개발은 서비스를 시작하는 순간부터임을 느꼈을 때,<br/>
+            그때서야 제가 얼마나 배우고 익혀야 할 것이 많은지 깨달았습니다.<br/>
+            개발하고 고객에게 전달하는 것이 아닌 자체 서비스를 개발하는 환경에서<br/>
+            나를 발전시키고 이를 바탕으로 회사에 기여하고 싶습니다.<br/>
+          ",
+    "location": {
+      "city": "서울",
+      "region": "대한민국"
+    },
+    "profiles": [
+    ]
+  },
+  "work": [
+    {
+      "company": "케이유디지털미디어랩(KDML)",
+      "position": "백엔드/프론트엔드 개발",
+      "website": "http://www.kdml.co.kr/",
+      "startDate": "2018-08",
+      "endDate": "",
+      "summary": "기술이전(챗봇, 추천모듈 등) 및 자체 서비스 개발",
+      "highlights": [
+        "미술 수업 예약 및 판매 시스템(반응형웹) 개발",
+        "부동산 매물 정보 메타서비스 앱, ‘방픽’ 프론트엔드 개발",
+        "태양광발전 부지 선정 검토 보고서 자동 작성 시스템 개발 등",
+      ]
+    },
+    {
+      "company": "LG U+",
+      "position": "컨설팅팀 근무(LG U+ 기업 고객 사업부)",
+      "website" : "https://www.uplus.co.kr",
+      "startDate": "2016-01",
+      "endDate": "2017-07",
+      "summary": "결제서비스(PG/VAN), 기업전용회선, 해외 백본망 등 B2B 사업 컨설팅 및 제안 작업",
+      "highlights": [
+        "결제서비스(PG/VAN) 제안<br>
+        - GS리테일(GS25 등) VAN 서비스 제안<br>
+        - 산업인력공단 PG 서비스 제안 등",
+        "삼성SDS 해외 백본망(국제회선) 제안 등"
+      ]
+    },
+    {
+      "company": "기아자동차",
+      "position": "차량생산기술 엔지니어",
+      "website" : "http://pr.kia.com/",
+      "startDate": "2015-01",
+      "endDate": "2015-11",
+      "summary": "차량 조립공정 개선 및 신규 차량 개발",
+      "highlights": [
+        "양산차량 조립공정 개선<br>
+        - K9 어라운드 뷰 시스템 보정 공정 오류 개선<br>
+        - 2016년형 프라이드 신규 조립 공정 개선",
+        "신규 차량 개발<br>
+        - 중국향 K4 조립 공정 개발"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "OpenCourseWare",
+      "studyType": "",
+      "startDate": "2018-03",
+      "endDate": "",
+      "courses": [
+        "컴퓨터네트워크 - 2019.03 (KOCW 한양대ERICA 이석복 교수)",
+        "Introduction to Algorithm - 2018.03 ~ 2018.05 (MIT Course Number : 6.006)",
+      ]
+    },
+    {
+      "institution": "한양대학교",
+      "area": "산업공학과",
+      "studyType": "학사",
+      "startDate": "2008-03",
+      "endDate": "2015-02",
+      "gpa": "3.98/4.5",
+      "courses": [
+        "의사결정론(Decision Theory), 인지심리학(Cognitive Psychology)",
+        "UI/UX, 응용확률통계, 객체지향프로그래밍, 데이터베이스구조 등"
+      ]
+    },
+    {
+      "institution": "Tokyo Institute of Technology(도쿄공업대학)",
+      "area": "Industrial Engineering",
+      "studyType": "연구교환학생",
+      "startDate": "2013-02",
+      "endDate": "2014-01",
+      "courses": [
+        "사용자경험에 대한 다양한 접근방법들의 이해(The Diverse Approaches of User Experience)",
+        "디자인씽킹(Design Thinking) 수강",
+        "정보시스템설계(Business Information System Project) 수강",
+        "일본산업의 이해(Japanese Industries) 수강",
+      ]
+    },
+  ],
+  "skills": [
+    {
+      "name": "Language",
+      "level": "개발 가능",
+      "keywords": [
+        "Java",
+        "Python",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Framework",
+      "level": "개발 가능",
+      "keywords": [
+        "Spring",
+        "Django"
+      ]
+    },
+    {
+      "name": "DB",
+      "level": "개발 가능",
+      "keywords": [
+        "mySQL",
+        "Oracle"
+      ]
+    },
+    {
+      "name": "etc.",
+      "level": "개발 가능",
+      "keywords": [
+        "Linux"
+      ]
+    },
+  ],
+  "languages": [
+    {
+      "language": "영어",
+      "fluency": "OPic - IH"
+    },
+    {
+      "language": "일본어",
+      "fluency": "회화 중급(비공식)"
+    }
+  ],
+  "interests": [
+    {
+      "name": "The Information Superhighway",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+}
