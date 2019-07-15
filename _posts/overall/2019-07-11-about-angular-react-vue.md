@@ -15,7 +15,7 @@ tags:
 
 <!-- ~~만일 HTML로 프론트엔드 프레임워크를 만들어낸다면 프레임워크 사용을 위한 가장 중요한 스킬은 'cmd+c, cmd+v'가 될 것이다.~~ -->
 
-**Angular, React, Vue**는 브라우져가 Javascript를 통해 DOM을 그려내도록하는 프론트엔드 프레임워크다. 
+**Angular, React, Vue**는 브라우져가 Javascript를 통해 DOM을 그려내도록하는 프론트엔드 프레임워크다.
 
 ### Angular, React, Vue는 왜 필요한가?
 1) SPA를 만드는데 이만 한 게 없다.
@@ -27,7 +27,21 @@ tags:
 2) 상태 정보의 유지에 용이
   - 프레임워크의 **State**를 통해 현재 선택된 검색 필터 종류, 키워드, 직전 키워드 등의 상태 정보를 저장하기에 용이하다.
 
+
 3) component의 강력한 재사용성
   - 동일한 (혹은 거의 동일한) 페이지 구성요소에 대해 component 단위로 재사용이 가능하며, 속성을 부여할 수 있다.
+
+### Angular, React, Vue comparison
+- [프론트엔드 프레임워크 관련 통계](https://medium.com/sjk5766/angular-vs-react-vs-vue-72046f6748b8)
+
+- [프론트엔드 프레임워크 비교](https://medium.com/aha-official/아하-프론트-개발기-0-angular-react-vue-js-프레임워크-선택-f797392118d0)
+
+
+<!-- _ _ _ 
+위 3개의 라이브러리가 널리 사용되는 데에는 브라우저의 성능 향상이 지대한 영향을 미쳤다. 웹 페이지는 브라우저의 비약적인 성능 향상에 힘입어 마음껏 무겁고, 복잡해졌다.
+
+예전의 웹페이지는 HTML과 CSS로 이루어진 아주 정적인 형태였으며, 정보의 변화나 기능을 수행하기 위해서는 url을 통해 다른 페이지로 **이동**하였다. 하지만 SPA로 불리우는 Single Page Application
+ -->
+
 
   
