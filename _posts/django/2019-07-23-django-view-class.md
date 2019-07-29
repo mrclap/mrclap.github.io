@@ -9,7 +9,7 @@ tags:
 ---
 > Django를 이용하여 MVC패턴의 웹페이지를 만들게되면 Spring의 Controller와 같은 역할을 하는 것이 바로 View이다. 보통은 FBV(Function Based View)를 이용하지만 미리 정의해둔 Model을 기반으로 List와 Detail페이지를 구현하는 경우 CBV를 이용하면 보다 편리하게 구현이 가능하다.
 
-[Django2.2 Document](https://docs.djangoproject.com/en/2.2/ref/class-based-views/base/#django.views.generic.base.View.http_method_not_allowed)
+[Django2.2 Document](https://docs.djangoproject.com/en/2.2/ref/class-based-views/base#django.views.generic.base.View.http_method_not_allowed)
 
 ## Basic Views
 
@@ -32,7 +32,6 @@ Django의 View클래스는 다른 모든 class-based view들의 부모클래스�
 
       def get(self, request, *args, **kwargs):
           return HttpResponse('Hello, World!')
-
   ```
 
 - urls.py
@@ -153,11 +152,13 @@ DetailView, ListView를 통해서 정의된 Model의 데이터를 간단히 가�
 
 - `object`객체를 통해 Model의 값을 template에서 사용가능
   ```python
+  {% raw %}
   <h1>{{ object.headline }}</h1>
   <p>{{ object.content }}</p>
   <p>Reporter: {{ object.reporter }}</p>
   <p>Published: {{ object.pub_date|date }}</p>
   <p>Date: {{ now|date }}</p>
+  {% endraw %}
   ```
 
 - Single object mixins의 get_object를 통해 query_set에서 pk로 해당 data를 찾아옴
