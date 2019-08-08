@@ -176,7 +176,7 @@ BST 기반의 트리형식 자료구조, Search, Insert, Delete에 O(log n)의 �
   - 시간복잡도
     - O(ElogE)
 
-- [Prime Algorithm](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A6%BC_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+- [Prim Algorithm](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A6%BC_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
   - 그래프에서 하나의 꼭짓점을 선택하여 트리 생성
   - 그래프의 모든 변이 들어있는 집합 생성
   - 트리가 모든 꼭지점을 포함할 때 까지
